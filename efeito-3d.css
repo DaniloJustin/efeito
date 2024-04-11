@@ -1,0 +1,26 @@
+.container{
+  
+  
+  
+   
+ }
+
+ .efeito{
+    margin: 100px;
+    height: 300px;
+   box-shadow: -10px 0 10px -10px;
+   
+ }
+
+
+ .efeito{
+    transition: transform 0.2s;
+    
+ }
+
+ .efeito:hover{
+    transform: perspective(1000px) rotateY(45deg) ;
+    transform-style: preserve-3d;
+    
+ 
+ }
